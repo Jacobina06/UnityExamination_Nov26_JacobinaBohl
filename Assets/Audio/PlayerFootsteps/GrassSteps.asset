@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-7628181650888638427
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_grass_03_{-7628181650888638427}
+  m_AudioClip: {fileID: 8300000, guid: c049c4157e3bafe46834b18611e0c1dd, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-7492415421703248963
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_grass_02_{-7492415421703248963}
+  m_AudioClip: {fileID: 8300000, guid: 798dc7b43402f6b44b1ab4a8a4f12a54, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2130495162269550899
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_grass_04_{-2130495162269550899}
+  m_AudioClip: {fileID: 8300000, guid: 929652308cb505c4b896f879081d0757, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &431588645829438594
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_grass_05_{431588645829438594}
+  m_AudioClip: {fileID: 8300000, guid: b1955a6c881101142a6b0889a2dea3eb, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5087530727512310889
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_grass_01_{5087530727512310889}
+  m_AudioClip: {fileID: 8300000, guid: 439d6b13ac636a442a34f76fff54fb9b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GrassSteps
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 5087530727512310889}
+  - {fileID: -7492415421703248963}
+  - {fileID: -7628181650888638427}
+  - {fileID: -2130495162269550899}
+  - {fileID: 431588645829438594}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 1
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
